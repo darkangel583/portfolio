@@ -1947,7 +1947,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
-	/** online profiles **/
+  /** online profiles **/
 
   .profiles-list a {
     color: #FFBC5E;
@@ -1971,4 +1971,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   .profiles-list a:visited {
     color: #663399; /* Color for visited links */
   }
+
 }
