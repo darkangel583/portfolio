@@ -1947,4 +1947,28 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+	/** online profiles **/
+
+  .profiles-list a {
+    color: #FFBC5E;
+    /*color: #0066cc; Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+  }
+
+  /* Hover effect */
+  .profiles-list a:hover {
+    color: #ff6600; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  /* Active link color */
+  .profiles-list a:active {
+    color: #cc3300; /* Color when the link is active/clicked */
+  }
+
+  /* Visited link color */
+  .profiles-list a:visited {
+    color: #663399; /* Color for visited links */
+  }
 }
